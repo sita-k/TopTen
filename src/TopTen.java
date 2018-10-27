@@ -69,9 +69,9 @@ public class TopTen {
 			}	
 			 
 			PrintWriter writer = new PrintWriter(new FileWriter(outFileName));
-			writer.println(header);
+			writer.print(header);
 		    results.forEach((k,v) -> 
-		    writer.printf("%s;%d;%.1f%%\n", k, v ,( (double)v/total )*100 )); 
+		    writer.printf("\n%s;%d;%.1f%%", k, v ,( (double)v/total )*100 )); 
 		    writer.close();
 		} catch (IOException io){
 			io.printStackTrace();
