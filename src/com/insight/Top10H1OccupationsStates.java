@@ -13,9 +13,9 @@ import java.util.Map;
 public class Top10H1OccupationsStates {
 	static long total = 0;
 	public static void main(String[] args) {
-		String inFile  = args[0]; //"input/H1B_FY_2015.csv";
-		String occupationsOutFile = args[1]; //"output/top_10_occupations.txt";
-		String statesOutfile = args[2]; //"output/top_10_states.txt";
+		String inFile  = "input/H1B_FY_2015.csv";
+		String occupationsOutFile = "output/top_10_occupations.txt";
+		String statesOutfile = "output/top_10_states.txt";
 		
 		// This delimiter ensures that it does not split the string when the ";" is between quotes
 		String delimiter = ";(?=[^\"]*(?:(?:\"[^\"]*){2})*$)";
