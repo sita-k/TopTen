@@ -63,7 +63,7 @@ public class TopTen {
 	public void outputToFile(LinkedHashMap<String, Long> results, String outFileName, String header){
 		try{	
 			total = 0;
-			// Total applications for the top 10
+			// Total applications for the top ten
 			for( long l: results.values() ){
 				 total += l;
 			}	
