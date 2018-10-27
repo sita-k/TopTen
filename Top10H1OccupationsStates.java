@@ -1,4 +1,4 @@
-package com.insight;
+//package com.insight;
 
 import java.io.FileWriter;
 import java.io.IOException;
