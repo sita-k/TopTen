@@ -29,7 +29,7 @@ public class TopTenH1bStatistics {
 		String statesHeader 	 = "TOP_STATES;NUMBER_CERTIFIED_APPLICATIONS;PERCENTAGE";
 		
 		int occupationsDrivingCol = 23;
-		int statesDrivingCol = 12;
+		int statesDrivingCol = 50;
 				
 		TopTenH1bStatistics top10 = new TopTenH1bStatistics();
 		top10.getTopTen(inFile, occupationsOutFile, delimiter, occupationsHeader, occupationsDrivingCol);
